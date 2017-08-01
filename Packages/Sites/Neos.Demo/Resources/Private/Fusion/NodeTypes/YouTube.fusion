@@ -1,6 +1,0 @@
-##
-# "YouTube" element
-#
-prototype(Site:YouTube) < prototype(Content) {
-	attributes.class = 'responsive-video'
-}
