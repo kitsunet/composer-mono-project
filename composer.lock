@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7ec708301d6b1642fe4705f68ec1b7bb",
+    "content-hash": "8388129c004bd3528834778491c680ef",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -1597,12 +1597,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/neos-ui.git",
-                "reference": "7d46c0fab06e0c7a969198b9d8e6364b45288dfe"
+                "reference": "a690d708f31747d788f16d0d62fd8f8538df1ede"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/neos/neos-ui/zipball/7d46c0fab06e0c7a969198b9d8e6364b45288dfe",
-                "reference": "7d46c0fab06e0c7a969198b9d8e6364b45288dfe",
+                "url": "https://api.github.com/repos/neos/neos-ui/zipball/a690d708f31747d788f16d0d62fd8f8538df1ede",
+                "reference": "a690d708f31747d788f16d0d62fd8f8538df1ede",
                 "shasum": ""
             },
             "require": {
@@ -1699,7 +1699,7 @@
                 "GPL-3.0+"
             ],
             "description": "NEOS CMS UI rewritten in React",
-            "time": "2017-08-01 10:06:32"
+            "time": "2017-08-01 13:59:41"
         },
         {
             "name": "neos/neos-ui-compiled",
@@ -3874,6 +3874,34 @@
             "time": "2017-06-01T20:52:29+00:00"
         },
         {
+            "name": "test/site",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": ".src/Test.Site",
+                "reference": "789a020a0d59a33e817897a88501325fb878d712",
+                "shasum": null
+            },
+            "require": {
+                "neos/neos": "*",
+                "neos/nodetypes": "*"
+            },
+            "suggest": {
+                "neos/seo": "*"
+            },
+            "type": "neos-site",
+            "extra": {
+                "neos": {
+                    "package-key": "Test.Site"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Test\\Site\\": "Classes/"
+                }
+            }
+        },
+        {
             "name": "theseer/tokenizer",
             "version": "1.1.0",
             "source": {
@@ -4118,6 +4146,7 @@
         "neos/flow-development-collection": 20,
         "neos/neos-ui": 20,
         "neos/neos-ui-compiled": 20,
+        "test/site": 20,
         "neos/party": 20,
         "neos/seo": 20,
         "neos/imagine": 20,
