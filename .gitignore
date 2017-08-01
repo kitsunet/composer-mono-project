@@ -6,7 +6,7 @@
 /Configuration/
 /Data/
 /Packages/*
-!/Packages/Sites/*
+!/Packages/Sites/Neos.Demo
 /Web/
 /bin/
 /Readme.txt
