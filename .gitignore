@@ -6,7 +6,7 @@
 /Configuration/
 /Data/
 /Packages/*
-!/Packages/Sites/
+!/Packages/Sites/*
 /Web/
 /bin/
 /Readme.txt
