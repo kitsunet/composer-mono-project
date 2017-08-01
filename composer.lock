@@ -3879,14 +3879,12 @@
             "dist": {
                 "type": "path",
                 "url": ".src/Test.Site",
-                "reference": "789a020a0d59a33e817897a88501325fb878d712",
+                "reference": "644200cb860eeb54e025977f388d577a1665da0b",
                 "shasum": null
             },
             "require": {
                 "neos/neos": "*",
-                "neos/nodetypes": "*"
-            },
-            "suggest": {
+                "neos/nodetypes": "*",
                 "neos/seo": "*"
             },
             "type": "neos-site",

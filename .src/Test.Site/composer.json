@@ -3,10 +3,11 @@
     "type": "neos-site",
     "require": {
         "neos/neos": "*",
-        "neos/nodetypes": "*"
+        "neos/nodetypes": "*",
+        "neos/seo": "*"
     },
     "suggest": {
-        "neos/seo": "*"
+
     },
     "name": "test/site",
     "autoload": {
