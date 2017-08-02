@@ -16,6 +16,9 @@
         }
     },
     "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        },
         "neos": {
             "package-key": "Test.Site"
         }

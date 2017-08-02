@@ -1,13 +1,13 @@
 Upgrading instructions
 ======================
 
-This file contains instructions for upgrading your Flow 4.1 based
-applications to Neos Flow 4.2
+This file contains instructions for upgrading your Flow 4.0 based
+applications to Neos Flow 4.1
 
 What has changed
 ----------------
 
-…
+Since there were mostly bugfixes and only a few small features, no breaking changes are to be expected.
 
 Upgrading your Packages
 -----------------------
