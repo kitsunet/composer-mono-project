@@ -1,6 +1,6 @@
 {
-    "name": "neos/neos-development-distribution",
-    "description" : "Neos Development Distribution",
+    "name": "kitsunet/composer-install-testing",
+    "description" : "Best practice example distribution for Neos",
     "license": "GPL-3.0+",
     "support": {
         "email": "hello@neos.io",
@@ -17,9 +17,6 @@
     },
     "require": {
         "test/site": "1.0.x-dev"
-    },
-    "suggest": {
-        "ext-pdo_sqlite": "For running functional tests out-of-the-box this is required"
     },
     "scripts": {
         "post-update-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
