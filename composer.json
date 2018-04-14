@@ -18,6 +18,8 @@
     "require": {
         "test/site": "1.0.x-dev"
     },
+    "prefer-stable": true,
+    "minimum-stability": "dev",
     "scripts": {
         "post-update-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
         "post-install-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
