@@ -16,7 +16,7 @@
         "bin-dir": "bin"
     },
     "require": {
-        "test/site": "1.0.x-dev"
+        "test/site": "dev-master"
     },
     "prefer-stable": true,
     "minimum-stability": "dev",
@@ -29,7 +29,7 @@
     "repositories": [
         {
             "type": "path",
-            "url": "Source/Test.Site"
+            "url": "./LocalPackages/*"
         }
     ]
 }
