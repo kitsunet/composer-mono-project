@@ -36,11 +36,11 @@ With the repository entry in the root composer.json:
        "repositories": [
            {
                "type": "path",
-               "url": "LocalPackages/Test.Site"
+               "url": "./src/*"
            }
        ]
 
-The package declared in `LocalPackages/Test.Site` named `test/site` is found by
+The package declared in `src/Test.Site` named `test/site` is found by
 composer (always as `dev-master`), so you can declare a dependency on it
 in your root composer.json. If you now run `composer install` or update
 the package will be symlinked into the appropriate folder inside `Packages`.
@@ -54,4 +54,7 @@ folder will not be under source control and should be avoided and chnages
 to the package folder in `.src` will not have effect until you ran
 `composer update`. So for rapid development using symlinks is recommended.
 That way you can easily just work with your package(s) inside the `Packages`
-folder and just hide `LocalPackages` from your IDE/editor.
+folder and just hide `src` from your IDE/editor.
+
+For naming see also discussion and voting in: 
+https://discuss.neos.io/t/neos-project-mono-repositories/3263
