@@ -54,7 +54,7 @@ that changes in the mirrored folder will not be under source control and
 should be avoided and chnages to the package folder in `.src` will not have effect 
 until you ran `composer update`. So for rapid development using symlinks is 
 recommended. That way you can easily just work with your package(s) inside 
-the `Packages` folder and just hide `src` from your IDE/editor.
+the `Packages` folder and just hide `DistributionPackages` from your IDE/editor.
 
 For naming see also discussion and voting in: 
 https://discuss.neos.io/t/neos-project-mono-repositories/3263/27
