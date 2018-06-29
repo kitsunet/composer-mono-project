@@ -36,11 +36,11 @@ With the repository entry in the root composer.json:
        "repositories": [
            {
                "type": "path",
-               "url": "./src/*"
+               "url": "./DistributionPackages/*"
            }
        ]
 
-The package declared in `src/Test.Site` named `test/site` is found by
+The package declared in `DistributionPackages/Test.Site` named `test/site` is found by
 composer (always as `dev-master`), so you can declare a dependency on it
 in your root composer.json. If you now run `composer install` or update
 the package will be symlinked into the appropriate folder inside `Packages`.
@@ -48,13 +48,13 @@ In this case as it is a site package it will be symlinked to
 `Packages/Sites/Test.Site`. If you want to have the package copied instead of
 symlinked you would add `"symlink": false` to the repository entry.
 Depending on your deployment processes you might want to do that and then
-never deploy `Source` to your server but just the mirrored `Packages` folder.
-If you disable symlinks you need to remember that changes in the mirrored
-folder will not be under source control and should be avoided and chnages
-to the package folder in `.src` will not have effect until you ran
-`composer update`. So for rapid development using symlinks is recommended.
-That way you can easily just work with your package(s) inside the `Packages`
-folder and just hide `src` from your IDE/editor.
+never deploy `DistributionPackages` to your server but just the 
+mirrored `Packages` folder. If you disable symlinks you need to remember 
+that changes in the mirrored folder will not be under source control and 
+should be avoided and chnages to the package folder in `.src` will not have effect 
+until you ran `composer update`. So for rapid development using symlinks is 
+recommended. That way you can easily just work with your package(s) inside 
+the `Packages` folder and just hide `src` from your IDE/editor.
 
 For naming see also discussion and voting in: 
-https://discuss.neos.io/t/neos-project-mono-repositories/3263
+https://discuss.neos.io/t/neos-project-mono-repositories/3263/27
