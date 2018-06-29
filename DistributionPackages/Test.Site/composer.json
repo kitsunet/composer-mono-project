@@ -2,7 +2,7 @@
     "description": "",
     "type": "neos-site",
     "require": {
-        "neos/neos": "*",
+        "neos/neos": "~4.0",
         "neos/nodetypes": "*",
         "neos/seo": "*"
     },
@@ -16,9 +16,6 @@
         }
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
-        },
         "neos": {
             "package-key": "Test.Site"
         }

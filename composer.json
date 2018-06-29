@@ -1,6 +1,6 @@
 {
     "name": "kitsunet/composer-install-testing",
-    "description" : "Best practice example distribution for Neos",
+    "description": "Best practice example distribution for Neos",
     "license": "GPL-3.0+",
     "support": {
         "email": "hello@neos.io",
@@ -16,7 +16,7 @@
         "bin-dir": "bin"
     },
     "require": {
-        "test/site": "dev-master"
+        "test/site": "*"
     },
     "prefer-stable": true,
     "minimum-stability": "dev",
@@ -29,7 +29,7 @@
     "repositories": [
         {
             "type": "path",
-            "url": "./src/*"
+            "url": "./DistributionPackages/*"
         }
     ]
 }
