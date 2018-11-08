@@ -24,10 +24,10 @@
         "post-package-update": "Neos\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall",
         "post-package-install": "Neos\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall"
     },
-    "repositories": [
-        {
+    "repositories": {
+        "distribution": {
             "type": "path",
             "url": "./DistributionPackages/*"
         }
-    ]
+    }
 }
