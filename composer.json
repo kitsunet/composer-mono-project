@@ -16,7 +16,7 @@
         "bin-dir": "bin"
     },
     "require": {
-        "test/site": "^1.0"
+        "test/site": "*@dev"
     },
     "prefer-stable": true,
     "minimum-stability": "dev",

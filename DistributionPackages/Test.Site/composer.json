@@ -5,7 +5,7 @@
         "neos/neos": "~4.0",
         "neos/nodetypes": "*",
         "neos/seo": "*",
-        "neos/ui": "*"
+        "neos/neos-ui": "*"
     },
     "suggest": {
 
@@ -20,6 +20,5 @@
         "neos": {
             "package-key": "Test.Site"
         }
-    },
-    "version": "1.0.0"
+    }
 }
