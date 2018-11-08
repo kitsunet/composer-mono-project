@@ -4,11 +4,7 @@
     "require": {
         "neos/neos": "~4.0",
         "neos/nodetypes": "*",
-        "neos/seo": "*",
-        "neos/neos-ui": "*"
-    },
-    "suggest": {
-
+        "neos/seo": "*"
     },
     "name": "test/site",
     "autoload": {
