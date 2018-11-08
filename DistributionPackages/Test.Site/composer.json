@@ -4,7 +4,8 @@
     "require": {
         "neos/neos": "~4.0",
         "neos/nodetypes": "*",
-        "neos/seo": "*"
+        "neos/seo": "*",
+        "neos/ui": "*"
     },
     "suggest": {
 

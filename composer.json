@@ -16,7 +16,7 @@
         "bin-dir": "bin"
     },
     "require": {
-        "test/site": "1.0.0"
+        "test/site": "^1.0"
     },
     "prefer-stable": true,
     "minimum-stability": "dev",
